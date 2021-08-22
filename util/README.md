@@ -24,7 +24,7 @@ Package util provides common utils.
 
 
 
-## <a name="GenerateRandString">func</a> [GenerateRandString](./util.go#L22?s=543:580)
+## <a name="GenerateRandString">func</a> [GenerateRandString](.//target/util.go#L20?s=488:525)
 ``` go
 func GenerateRandString(l int) string
 ```
@@ -32,13 +32,12 @@ GenerateRandString returns a random string with given length.
 
 
 
-## <a name="IsNilInterface">func</a> [IsNilInterface](./util.go#L17?s=383:422)
+## <a name="IsNilInterface">func</a> [IsNilInterface](.//target/util.go#L15?s=328:367)
 ``` go
 func IsNilInterface(i interface{}) bool
 ```
 IsNilInterface returns if an interface contains nil type or value.
 See <a href="https://dev.to/pauljlucas/go-tcha-when-nil--nil-hic">https://dev.to/pauljlucas/go-tcha-when-nil--nil-hic</a> for detailed information.
-
 
 
 
